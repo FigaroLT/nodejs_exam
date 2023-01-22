@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Registration</title>
+  </head>
+  <body class="wrapper">
+
+    <header>
+      <div id="logo">
+        <a href="./index.html">
+          <img src="https://www.swedbank.se/content/dam/swedbank/brand-manager/sketches/Symbol_626px.png" alt="app-logo"></a>
+        <h1>Split Bills</h1>
+        <p>BEST IN MARKET</p>
+      
+    </header>
+
+      <form id="reg-form">
+        <h2>Sign Up</h2>
+        <label for="user-email">Email</label>
+        <input type="email" name="user-email" id="user-email" placeholder="email" required >
+        <label for="password">Password</label>
+        <input type="password" name="user-password" id="user-password" placeholder="password" required/>
+        <label for="password2">Confirm password</label>
+        <input type="password" name="conf-password"  id="conf-password" placeholder="confirm password"required />
+        <label for="full-name">Full Name</label>
+        <input type="full-name" name="full-name" id="full-name" placeholder="Full Name" required/>
+        
+        <button type="submit">Register</button>
+
+        <p>If you already registered, please
+        <a href="./login.html">login here</a></p>
+      </form>
+    
+    <script src="./register.js" type="modules"></script>
+  </body>
+</html>
