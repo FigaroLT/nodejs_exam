@@ -28,8 +28,6 @@ regForm.addEventListener('submit', async (event) => {
 		if (response.ok) {
 			registerForm.reset();
 
-			alert('Registered successfuly');
-
 			return window.location.assign(`./login.html`);
 		}
 

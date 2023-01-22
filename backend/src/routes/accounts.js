@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import mysql from "mysql2/promise";
-import { MYSQL_CONFIG } from "../utils/config";
-import { jwtSecret } from "../utils/config.js";
+import { MYSQL_CONFIG } from "../config.js";
+import { jwtSecret } from "../config.js";
 
 export const getUserAccounts = async (req, res) => {
   const token = req.headers.authorization?.split(" ")[1];

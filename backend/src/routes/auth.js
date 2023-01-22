@@ -2,8 +2,8 @@ import mysql from "mysql2/promise";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import joi from "joi";
-import { MYSQL_CONFIG } from "../utils/config";
-import { jwtSecret } from "../utils/config";
+import { MYSQL_CONFIG } from "../config.js";
+import { jwtSecret } from "../config.js";
 
 const userRegSchema = joi.object({
   fullName: joi.string().trim().required(),

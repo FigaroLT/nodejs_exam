@@ -1,7 +1,7 @@
 import mysql from "mysql2/promise";
 import jwt from "jsonwebtoken";
-import { MYSQL_CONFIG } from "../utils/config.js";
-import { jwtSecret } from "../utils/config.js";
+import { MYSQL_CONFIG } from "../config.js";
+import { jwtSecret } from "../config.js";
 
 export const getGroupBills = async (req, res) => {
   const token = req.headers.authorization?.split(" ")[1];
