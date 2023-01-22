@@ -1,8 +1,0 @@
-{
-    "compilerOptions": {
-        "esModuleInterop": true,
-        "lib": [
-            "ES2021.String"
-        ]
-    }
-}
